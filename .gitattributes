@@ -1,0 +1,16 @@
+# Force LF line endings for source files on Windows so that
+# `git status` doesn't show spurious "modified" badges just because
+# of CRLF normalization.
+* text=auto eol=lf
+
+# But .bat files need CRLF to actually run on Windows.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets stay as-is.
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
