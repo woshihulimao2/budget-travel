@@ -1,0 +1,6 @@
+{
+  "name": "杭州独立行 - 外宾防坑生存手册",
+  "description": "专为来华独立旅行外宾设计的互动式避坑生存指南。包含移动支付配置、网络设置、正规交通接驳说明、常用口语以及AI本地向导陪伴功能，助外宾无忧畅游杭州。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
