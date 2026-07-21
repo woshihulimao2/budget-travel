@@ -30,7 +30,6 @@ lerna-debug.log*
 *.tsbuildinfo
 
 # Hand-written env files (keep .env.example tracked)
-.env*
 .env.local
 .env.*.local
 !.env.example
